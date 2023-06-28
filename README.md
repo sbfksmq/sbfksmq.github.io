@@ -1,114 +1,114 @@
-# The Hacker-Blog theme
+# RubyGems [![Maintainability](https://api.codeclimate.com/v1/badges/30f913e9c2dd932132c1/maintainability)](https://codeclimate.com/github/rubygems/rubygems/maintainability)
 
-*Hacker-Blog is a minimalistic, responsive jekyll theme built for hackers. It is based on the [hacker theme](https://github.com/pages-themes/hacker) for project pages.*
+RubyGems is a package management framework for Ruby.
 
-Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker-blog)
+A package (also known as a library) contains a set of functionality that can be invoked by a Ruby program, such as reading and parsing an XML file.
+We call these packages "gems" and RubyGems is a tool to install, create, manage and load these packages in your Ruby environment.
 
-### Included
+RubyGems is also a client for [RubyGems.org](https://rubygems.org), a public repository of Gems that allows you to publish a Gem
+that can be shared and used by other developers. See our guide on publishing a Gem at [guides.rubygems.org](https://guides.rubygems.org/publishing/)
 
-1. Pagination
-2. SEO tags
-3. Archive Page
-4. About Page
-5. RSS (`https://base-url/atom`)
-6. Sitemap (`https://base-url/sitemap`)
-7. Google Analytics (optional)
+## Getting Started
 
-## Usage
+Installing and managing a Gem is done through the `gem` command. To install a Gem such as [Nokogiri](https://github.com/sparklemotion/nokogiri) which lets
+you read and parse XML in Ruby:
 
-1. Fork and Clone this repository
-2. Customize your blog
-3. Add a new post in `_posts/` directory with proper name format (as shown in placeholder posts)
-4. Commit and push to master on a repository named `<githubusername.github.io>`.
-5. Visit `<githubusername>.github.io`
+    $ gem install nokogiri
 
-## Local Build
+RubyGems will download the Nokogiri Gem from RubyGems.org and install it into your Ruby environment.
 
-If you want to see the changes before pushing the blog to Github, do a local build.
+Finally, inside your Ruby program, load the Nokogiri gem and start parsing your XML:
 
-1. [`gem install jekyll`](https://jekyllrb.com/docs/installation/#install-with-rubygems)
-2. `gem install jekyll-seo-tag`
-3. `gem install jekyll-paginate`
-4. `gem install jekyll-sitemap`
-5. (`cd` to the blog directory, then:) `jekyll serve --watch --port 8000`
-6. Go to `http://0.0.0.0:8000/` in your web browser.
+    require 'nokogiri'
 
-*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
+    Nokogiri.XML('<h1>Hello World</h1>')
 
-### Local build using docker
+For more information about how to use RubyGems, see our RubyGems basics guide at [guides.rubygems.org](https://guides.rubygems.org/rubygems-basics/)
 
-```bash
-docker run --rm -p 8000:8000 \
-  --volume="LOCATION_OF_YOUR_JEKYLL_BLOG:/srv/jekyll" \
-  -it tocttou/jekyll:3.5 \
-  jekyll serve --watch --port 8000
-```
+## Requirements
 
-Replace `LOCATION_OF_YOUR_JEKYLL_BLOG` with the full path of your blog repository. Visit `http://localhost:8000/` to access the blog.
+* RubyGems 2.6 supports Ruby 2.4 or lower.
+* RubyGems 2.7 supports Ruby 2.5 or lower.
+* RubyGems 3.0 supports Ruby 2.3 or later.
 
-*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
+## Installation
 
-## Customizing
+RubyGems is already installed in your Ruby environment, you can check the version you have installed by running `gem --version` in your terminal emulator.
 
-### Configuration variables
+In some cases Ruby & RubyGems may be provided as OS packages. This is not a
+recommended way to use Ruby & RubyGems. It's better to use a Ruby Version
+Manager, such as [rbenv](https://github.com/rbenv/rbenv) or
+[chruby](https://github.com/postmodern/chruby). If you still want to use the
+version provided by your OS package manager, please also use your OS package
+manager to upgrade rubygems, and disregard any other installation instructions
+given below.
 
-Edit the `_config.yml` file and set the following variables:
+If you would like to manually install RubyGems:
 
-```yml
-title: [The title of your blog]
-description: [A short description of your blog's purpose]
-author:
-  name: [Your name]
-  email: [Your email address]
-  url: [URL of your website]
+* Download from https://rubygems.org/pages/download, unpack, and `cd` into RubyGems' src
+* OR clone this repository and `cd` into the repository
 
-baseurl: [The base url for this blog.]
+Install RubyGems by running:
 
-paginate: [Number of posts in one paginated section (default: 3)]
-owner: [Your name]
-year: [Current Year]
-```
+    $ ruby setup.rb
 
-*Note: All links in the site are prepended with `baseurl`. Default `baseurl` is `/`. Any other baseurl can be setup like `baseurl: /hacker-blog`, which makes the site available at `http://domain.name/hacker-blog`.*
+For more details and other options, see:
 
-Additionally, you may choose to set the following optional variables:
+    $ ruby setup.rb --help
 
-```yml
-google_analytics: [Your Google Analytics tracking ID]
-```
+## Upgrading RubyGems
 
-### About Page
+To upgrade to the latest RubyGems, run:
 
-Edit `about.md`
+    $ gem update --system
 
-### Layout
+See [UPGRADING](UPGRADING.md) for more details and alternative instructions.
 
-If you would like to modify the site style:
+## Release policy
 
-**HTML**
+RubyGems and Bundler are released in sync, although they do not share their
+major version number. It is planned that also their major version numbers will
+be sync'ed in the future.
 
-Footer: Edit `_includes/footer.html`
+The release policy is somewhat similar to the release policy of Ruby itself:
 
-Header: Edit `_includes/header.html`
+* Frequent patch releases (every 2-4 weeks) including bug fixes, minor
+  enhancements, small features, or even medium sized features declared as
+  experimental for battle testing.
+* Yearly minor releases including bigger features, and minor breaking changes
+  (affecting only edge cases and a very small set of users).
+* Occasional major releases (replacing yearly minors) including major breaking
+  changes.
 
-Links in the header: Edit `_includes/links.html`
+## Documentation
 
-Meta tags, blog title display, and additional CSS: Edit `_includes/head.html`
+RubyGems uses [rdoc](https://github.com/rdoc/rdoc) for documentation. A compiled set of the docs
+can be viewed online at [rubydoc](https://www.rubydoc.info/github/rubygems/rubygems).
 
-Index page layout: Edit `_layouts/default.html`
+RubyGems also provides a comprehensive set of guides which covers numerous topics such as
+creating a new gem, security practices and other resources at https://guides.rubygems.org
 
-Post layout: Edit `_layouts/post.html`
+## Getting Help
 
-**CSS**
+### Filing Tickets
 
-Site wide CSS: Edit `_sass/base.scss`
+Got a bug and you're not sure?  You're sure you have a bug, but don't know
+what to do next?  In any case, let us know about it!  The best place
+for letting the RubyGems team know about bugs or problems you're having is
+[on the RubyGems issues page at GitHub](https://github.com/rubygems/rubygems/issues).
 
-Custom CSS: Make `_sass/custom.scss` and use it. Then add `@import "custom";` to `css/main.scss`
+### Bundler Compatibility
 
-**404 page**
+See https://bundler.io/compatibility for known issues.
 
-Edit `404.md`
+### Supporting
 
-## License
+RubyGems is managed by [Ruby Central](https://rubycentral.org), a non-profit organization that supports the Ruby community through projects like this one, as well as [RubyConf](https://rubyconf.org), [RailsConf](https://railsconf.org), and [RubyGems.org](https://rubygems.org). You can support Ruby Central by attending or [sponsoring](sponsors@rubycentral.org) a conference, or by [joining as a supporting member](https://rubycentral.org/#/portal/signup).
 
-CC0 1.0 Universal
+### Contributing
+
+If you'd like to contribute to RubyGems, that's awesome, and we <3 you. Check out our [guide to contributing](CONTRIBUTING.md) for more information.
+
+### Code of Conduct
+
+Everyone interacting in the RubyGems project’s codebases, issue trackers, chat rooms, and mailing lists is expected to follow the [contributor code of conduct](https://github.com/rubygems/rubygems/blob/master/CODE_OF_CONDUCT.md).
