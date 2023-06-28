@@ -1,35 +1,41 @@
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
- <body>
-<div id="wrapper">
- {% include header.html %}
- <div class="container">
-	<div class="row">
-        <div class="box">
-                <div class="col-lg-12">
-                    <div class="intro-text text-center">
-					<h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-					<p class="post-meta">{% if page.author %} <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">by {{ page.author }}</span></span>{% endif %} <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><i class="fa fa-calendar"></i> {{ page.date | date: "%b %-d, %Y" }}</time></p>
-					</div>
-					 {{ content }}
-					 <span class='st_sharethis_large' displayText='ShareThis'></span>
-						<span class='st_facebook_large' displayText='Facebook'></span>
-						<span class='st_twitter_large' displayText='Tweet'></span>
-						<span class='st_linkedin_large' displayText='LinkedIn'></span>
-						<span class='st_pinterest_large' displayText='Pinterest'></span>
-						<span class='st_email_large' displayText='Email'></span>
-                </div>
-                Category {{ page.categories | join: ', ' }}
+---
+layout: default
+---
+<div class="row">
+  <div id="myArticle" class="col-sm-9">
+    <div class="post-area post">
+      <header>
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      </header>
+      <hr>
+      <article>
+        {{content}}
+      </article>
+      <hr>
+        <div class="bdsharebuttonbox">
+            <a href="#" class="bds_more" data-cmd="more"></a>
+            <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+            <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
+            <a href="#" class="bds_fbook" data-cmd="fbook" title="Share to Facebook"></a>
+            <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
         </div>
-	</div>
+        <script>
+            window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    </div>
+	{% include comments.html %}
+  </div>
   
-  {% include comment.html %}
+  <div id="content" class="col-sm-3">
+    <!-- <div id="myAffix" class="shadow-bottom-center hidden-xs" data-spy="affix" data-offset-top="0" data-offset-bottom="-20"> -->
+    <div id="myAffix" class="shadow-bottom-center hidden-xs" >
+      <div class="categories-list-header">
+        Content
+      </div>
+      <div class="content-text"></div>
+    </div>
+  </div>
+  
 </div>
-<hr>
- {% include footer.html %}
-</div>
-  </body>
-
-</html>

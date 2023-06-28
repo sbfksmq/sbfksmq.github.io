@@ -1,24 +1,34 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Sciblog
-email: airrayagroup@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "/sciblog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-author: AIRRAYA
+title: LiXizhi's Personal Website
+email: lixizhi@yeah.net
+description: Xizhi's Ideas & Blogs
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
 
-# Gems
-gems: [jekyll-paginate]
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username: LiXizhi
+permalink: /:year/:month/:day/:title/
+# this is the url root of the view source link on the footer page.
+viewsourceroot: https://github.com/LiXizhi/LiXizhi.github.io/blob/master/
+# this is the url root of the create page link on the footer page.
+newsourceroot: https://github.com/LiXizhi/LiXizhi.github.io/new/master
+#########################################
+# for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
+#duoshuo_shortname: lixizhi
+#duoshuo_url: "http://lixizhi.github.io"
+# disqus.com commenting system. please note that it is exclusive with duoshuo.com
+disqus_shortname: lixizhi
+disqus_url: "http://lixizhi.github.io"
+#########################################
 
 # Build settings
 markdown: kramdown
-paginate: 5
-paginate_path: 'page:num/'
-comments: true
-excerpt_separator: <!-- more -->
+
+# highlight
+# highlighter: pygments
+# highlighter: rouge
+# highlighter: false
