@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "第一篇关于音乐的title"
-tags: log
+tags: music
 ---
 
 # 测试标题

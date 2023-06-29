@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "第一篇关于阅读的title"
-tags: log
+tags: read
 ---
 
 # 测试标题

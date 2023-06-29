@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "第一篇关于技术的title"
-tags: log
+tags: tech
 ---
 
 # 测试标题
