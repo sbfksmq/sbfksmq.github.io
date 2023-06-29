@@ -10,15 +10,15 @@ tag3:
 tag4:
   name: tag4
 
-tag_program:
-  name: tag_program
+program:
+  name: program
 
-tag_log:
-  name: tag_log
+log:
+  name: log
 
-tag_read:
-  name: tag_read
+read:
+  name: read
 
-tag_music:
-  name: tag_music
-  
+music:
+  name: music
+
