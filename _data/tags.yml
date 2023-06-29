@@ -9,16 +9,3 @@ tag3:
 
 tag4:
   name: tag4
-
-program:
-  name: program
-
-log:
-  name: log
-
-read:
-  name: read
-
-music:
-  name: music
-
