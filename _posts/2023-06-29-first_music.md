@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "第一篇关于日志的title"
+title: "第一篇关于音乐的title"
 tags: log
 ---
 
