@@ -9,3 +9,16 @@ tag3:
 
 tag4:
   name: tag4
+
+tag_program:
+  name: tag_program
+
+tag_log:
+  name: tag_log
+
+tag_read:
+  name: tag_read
+
+tag_music:
+  name: tag_music
+  
