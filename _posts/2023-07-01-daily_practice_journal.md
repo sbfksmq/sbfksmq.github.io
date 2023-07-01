@@ -364,3 +364,7 @@ tags: music
 - 20230701
   - 今天是周六 早上 喝完茶 开始晨练
   - 下午继续练习了一下 最近一直都在练习的 marshall harrison 的swybrid
+  - paul gilbert 的 shred alert 练习有个规律 就是一个pattern练习后， 这个pattern拓展到所有把位 然后 再加上速度 
+    ----8-7-----------7------ 
+    -------10-7-----8--10-7-- 
+    - 弹的时候可以 知道当前在哪个mode里了  
