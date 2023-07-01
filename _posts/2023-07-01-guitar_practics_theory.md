@@ -174,4 +174,4 @@ Wayne Shorter tunes (33), Horace Silver tunes (17, 18), (14) and thousands of ot
 
 
 # scale
-- 弹奏音阶时 需要跨多个品位时 可以用每弦二音或四音  
+- 弹奏音阶时 需要跨多个品位时 可以用每弦二音或四音  -- Rick Graham
