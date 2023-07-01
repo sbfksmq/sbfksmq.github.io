@@ -1,0 +1,34 @@
+---
+layout: default
+title: "bebop jazz fusion theory"
+tags: music
+---
+
+- sound like bebop
+- c7
+    - chromatic passing note
+    - chromaticism and major blues
+    - pivot arpeggios
+        - 1 3 5 7 -> (octave higher)1 3 5 7 
+    - 2-note approach
+        - 两个半音到 目标音
+    - chomatic enclosure 
+        - 在音阶里， 目标音是5  那可以弹645
+    - the import notes are the arpeggio of the chord !!!!
+- cmaj7
+    - charlie parker use lots of  maj triad 
+    - triplet not to three 
+    - 三连音
+    - counterpoint 对位法？
+    - arpeggios  前加 前导音
+    - 非和弦音 落在非重拍上 offbeat
+    - C7 弹大三度的 Em7 / 我理解就是 从arpeggios 的三音起 弹四个三度 其实就是多上了九音
+    - Dm->Fmaj7  
+    - G7 -> B半减
+    - Cmaj -> Em
+    - direct lick 
+    - one direction and add some note 
+- all
+  -  chromatic + arppeggio
+  -  chromatic enclosure  + arppeggio
+  -  arppeggios + x == killer lines
