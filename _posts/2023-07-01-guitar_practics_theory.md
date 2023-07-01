@@ -12,6 +12,7 @@ tags: music
 - [Intermediate Songs troublesome spots = \[ \] Four, Eb (7, 65, 67) \[F#- B7\]](#intermediate-songs-troublesome-spots----four-eb-7-65-67-f--b7)
 - [Advanced Songs](#advanced-songs)
 - [scale](#scale)
+- [legato](#legato)
 
 ```
 jazz guitar practice guide 笔记
@@ -175,3 +176,9 @@ Wayne Shorter tunes (33), Horace Silver tunes (17, 18), (14) and thousands of ot
 
 # scale
 - 弹奏音阶时 需要跨多个品位时 可以用每弦二音或四音  -- Rick Graham
+  - 两个音时 下行时 手指是向指板的上低把位的 反之亦然
+   
+# legato
+- LAZY FIRST FINGER SYNDROME
+  - 说的是在legato的时候 第一手指 在弹完后 第二个手指在弹的时候 第一个手指要抬起来 
+    - 好处是 后面在三四手指弹完之后 弹下一根弦的时候 是第一个手指先移动 如果一直放在弦上不抬起来 会影响移动速度 cool!
