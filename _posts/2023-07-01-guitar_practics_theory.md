@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "禅之练琴"
+title: "抚琴之禅"
 tags: music
 ---
 
