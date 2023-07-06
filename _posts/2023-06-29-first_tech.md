@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "tech log"
+title: "tech"
 tags: tech
 ---
 

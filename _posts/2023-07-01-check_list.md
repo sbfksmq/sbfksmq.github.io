@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "practics_todo_list"
+title: "待"
 tags: music
 ---
 
