@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "抚琴之术"
+title: "术"
 tags: music
 ---
 

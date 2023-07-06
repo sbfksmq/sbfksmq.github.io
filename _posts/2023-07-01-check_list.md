@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "待办"
+title: "待"
 tags: music
 ---
 

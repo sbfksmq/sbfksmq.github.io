@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "music"
+title: "乐"
 tags: music
 ---
 

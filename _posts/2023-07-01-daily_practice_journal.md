@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "魔(日更)"
+title: "艺"
 tags: music
 ---
 
