@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "练琴日志(日更)"
+title: "魔(日更)"
 tags: music
 ---
 
