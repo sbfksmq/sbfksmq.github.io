@@ -507,4 +507,4 @@ tags: music
       - 自己随意生成 模进+arp 一个pattern 的2级， 重复这个pattern 到5 再到1 
         - 走向可以 向琴颈方向 或 琴桥方向 
 - picking
-  - 
+  - 轮拔 速度 待提高。。
