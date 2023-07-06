@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "艺"
+title: "琴"
 tags: music
 ---
 
