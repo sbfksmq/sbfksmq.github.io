@@ -4,7 +4,10 @@ title: "待"
 tags: music
 ---
 
-# 制定一些计划
+- [p1](#p1)
+- [p2](#p2)
+
+# p1
 - 扒下尽可能多的charlie parker曲子
   - 一些准备工作
     - 每天听charlie parker的曲子 在qq音乐上建一个歌单
@@ -44,7 +47,7 @@ tags: music
   - 在和弦变化时 迅速反应对应最近的和弦琶音
  
 
-  # 三个长期目标
+  # p2
   - 熟练记忆并弹出100个standard的chord melody
   - 100个standard中 进行 bebop风格的即兴 
   - 100个standard中 进行 comping/walking bass
