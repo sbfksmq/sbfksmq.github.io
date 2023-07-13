@@ -559,3 +559,4 @@ tags: music
     - 感受 消除紧张感的左右手 
     - 感受 仅受重力的左右手
     - 感受 软软的琴弦
+    - 感受 allan horldsworth, frank gambale, shawn lane 附体。。。
