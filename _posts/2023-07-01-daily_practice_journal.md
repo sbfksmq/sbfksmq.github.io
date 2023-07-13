@@ -549,4 +549,4 @@ tags: music
 # 20230713
 - 喝洒
 - 休息
-- 看了shawn lane 的现场
+- 看了shawn lane 的现场(电脑上)
