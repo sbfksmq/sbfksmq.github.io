@@ -4,6 +4,9 @@ title: "乐"
 tags: music
 ---
 
+- [chord\_to\_scale](#chord_to_scale)
+- [chord\_to\_scale](#chord_to_scale-1)
+- [intervals-on-guitar-chart](#intervals-on-guitar-chart)
 - [major](#major)
   - [per\_3\_major](#per_3_major)
   - [cpf\_major](#cpf_major)
@@ -15,6 +18,32 @@ tags: music
   - [cpf\_harmonic\_minor](#cpf_harmonic_minor)
 - [pentatonic](#pentatonic)
 - [blues](#blues)
+- [diminished\_wh](#diminished_wh)
+- [diminished\_hw](#diminished_hw)
+- [major-bebop](#major-bebop)
+- [dorian-bebop-with3](#dorian-bebop-with3)
+- [dorian-bebop-with7](#dorian-bebop-with7)
+- [dominant-bebop](#dominant-bebop)
+- [whole-tone](#whole-tone)
+
+***
+
+# chord_to_scale
+![chord_to_scale](../assets/img/chord_to_scale.png "chord_to_scale")
+***
+[[Top]](#top)
+***
+
+# chord_to_scale
+![chord_to_scale](../assets/img/chord_to_scale.png "chord_to_scale")
+***
+[[Top]](#top)
+
+
+# intervals-on-guitar-chart
+![intervals-on-guitar-chart](../assets/img/intervals-on-guitar-chart.png "intervals-on-guitar-chart")
+***
+[[Top]](#top)
 
 # major
 ## per_3_major
@@ -48,5 +77,40 @@ tags: music
 
 # blues
 ![blues](../assets/img/blues.png "blues")
+***
+[[Top]](#top)
+
+# diminished_wh
+![diminished_wh](../assets/img/diminished_hw.png "diminished_wh")
+***
+[[Top]](#top)
+
+# diminished_hw
+![diminished_hw](../assets/img/diminished_hw.png "diminished_hw")
+***
+[[Top]](#top)
+
+# major-bebop
+![major-bebop](../assets/img/major-bebop.png "major-bebop")
+***
+[[Top]](#top)
+
+# dorian-bebop-with3
+![dorian-bebop-with3](../assets/img/dorian-bebop-with3.png "dorian-bebop-with3")
+***
+[[Top]](#top)
+
+# dorian-bebop-with7
+![dorian-bebop-with7](../assets/img/dorian-bebop-with7.png "dorian-bebop-with7")
+***
+[[Top]](#top)
+
+# dominant-bebop
+![dominant-bebop](../assets/img/dominant-bebop.png "dominant-bebop")
+***
+[[Top]](#top)
+
+# whole-tone
+![whole-tone](../assets/img/whole-tone.png "whole-tone")
 ***
 [[Top]](#top)
