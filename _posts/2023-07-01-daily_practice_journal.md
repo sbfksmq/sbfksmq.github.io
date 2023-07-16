@@ -568,6 +568,8 @@ tags: music
     - 太级张三丰
 
 # 20230715
+- blog
+  - 整理了 之前收集的一些音阶的相关资料 更新到了博客上
 - 看演出 
   - CNHC -- china hard core?
     - HOU LIVE 的 现场音箱效果 好像比 BO LIVE的 好一些， 不过不太喜欢这类punk  core的音乐类型 
