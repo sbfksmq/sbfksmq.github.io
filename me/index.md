@@ -9,4 +9,4 @@ title: me
 此身天地一蘧庐，世事消磨绿鬓疏。
 毕竟几人真得鹿，不知终日梦为鱼。
 ```
-![rock](../assets/img/chill.jpg "rock")
+![rock](../assets/img/citypop.png "rock")
