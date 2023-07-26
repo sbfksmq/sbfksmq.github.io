@@ -29,6 +29,7 @@ tags: music
 - [20230723](#20230723)
 - [20230724](#20230724)
 - [20230725](#20230725)
+- [20230726](#20230726)
 
 # 20220407~20230701
 - 2022-04-27 周三 E调
@@ -680,3 +681,13 @@ tags: music
 
 # 20230725
 - 头疼
+
+# 20230726
+- movie 
+  - 老无所依
+  ```python
+  那我来问你 如果你遵守的规则 却使用落得如此下场 那些规则又有什么用？
+  let me ask you something if the rule you followed brought you to this of what use was the rule?
+  ```
+- solo
+  - last chance 
