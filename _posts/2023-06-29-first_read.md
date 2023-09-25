@@ -5103,6 +5103,8 @@ tags: read
 # 在读
 ## 学习之道 A Mind for Numbers：How to Excel at Math and Science（Even If You Flunked Algebra）（美）芭芭拉·奥克利（Barbara Oakley）
 - 第1章　开启大门
+- 第2章　放松点
+  - 专注思维和发散思维
   - 
 
 
