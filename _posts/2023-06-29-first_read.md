@@ -33,6 +33,7 @@ tags: read
   - [如何高效阅读 （美）孔普（Kump，P.）](#如何高效阅读-美孔普kumpp)
   - [刻意练习：如何从新手到大师 （美）安德斯·艾利克森（Anders Ericsson）　（美）罗伯特·普尔（Robert Pool）　著](#刻意练习如何从新手到大师-美安德斯艾利克森anders-ericsson美罗伯特普尔robert-pool著)
 - [在读](#在读)
+  - [学习之道 A Mind for Numbers：How to Excel at Math and Science（Even If You Flunked Algebra）（美）芭芭拉·奥克利（Barbara Oakley）](#学习之道-a-mind-for-numbershow-to-excel-at-math-and-scienceeven-if-you-flunked-algebra美芭芭拉奥克利barbara-oakley)
 - [暂读](#暂读)
   - [高效休息法　世界精英这样放松大脑/（日）久贺谷亮著](#高效休息法世界精英这样放松大脑日久贺谷亮著)
   - [布鲁克林的荒唐事（村上春树赞赏的当代小说大师，保罗·奥斯特罕见暖心治愈之作,献给梦想家，也献给失意者。 (保罗·奥斯特经典作品) (保罗·奥... (Z-Library)](#布鲁克林的荒唐事村上春树赞赏的当代小说大师保罗奥斯特罕见暖心治愈之作献给梦想家也献给失意者-保罗奥斯特经典作品-保罗奥-z-library)
@@ -5100,8 +5101,9 @@ tags: read
 
 
 # 在读
-
-
+## 学习之道 A Mind for Numbers：How to Excel at Math and Science（Even If You Flunked Algebra）（美）芭芭拉·奥克利（Barbara Oakley）
+- 第1章　开启大门
+  - 
 
 
 
