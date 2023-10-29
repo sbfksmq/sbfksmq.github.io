@@ -114,3 +114,6 @@ tags: music
 ![whole-tone](../assets/img/whole-tone.png "whole-tone")
 ***
 [[Top]](#top)
+
+# chordex
+![chordex](../assets/img/ScaleEx.jpg)
