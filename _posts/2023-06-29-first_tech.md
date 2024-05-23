@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "tech"
+title: "技"
 tags: tech
 ---
 
