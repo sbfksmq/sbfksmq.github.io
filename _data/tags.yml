@@ -1,3 +1,6 @@
+log:
+  name: log
+  
 tech:
   name: tech
 
@@ -6,5 +9,4 @@ read:
 
 music:
   name: music
-log:
-  name: log
+
