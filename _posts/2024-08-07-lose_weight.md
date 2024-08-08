@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "减肥日志"
+title: "猛男减肥日志"
 tags: log
 ---
 
