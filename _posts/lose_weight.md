@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "猛男减肥日志"
-tags: log_deprecated
+tags: log
 ---
 
 - [目标](#目标)
