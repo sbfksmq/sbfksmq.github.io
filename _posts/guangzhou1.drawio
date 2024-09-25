@@ -1,0 +1,188 @@
+<mxfile host="65bd71144e">
+    <diagram id="SGRs50PO_6FacDt_UsOI" name="第 1 页">
+        <mxGraphModel dx="1163" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" style="edgeStyle=none;html=1;startArrow=none;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480" y="280" as="targetPoint"/>
+                        <mxPoint x="485" y="290" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" parent="1" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="160" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="380" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;" parent="1" source="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="470" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;b&gt;广州东站&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="80" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;b&gt;泮塘古村&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="200" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="470" y="390" as="sourcePoint"/>
+                        <mxPoint x="520" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="&lt;b&gt;永庆坊&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="320" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;b&gt;大佛古寺&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="440" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;b&gt;广州塔&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="560" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="670" y="430" as="sourcePoint"/>
+                        <mxPoint x="720" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="319.5" y="240" as="sourcePoint"/>
+                        <mxPoint x="319.5" y="320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="319.5" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="319.5" y="370" as="sourcePoint"/>
+                        <mxPoint x="320" y="440" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="319.5" y="430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="319.5" y="490" as="sourcePoint"/>
+                        <mxPoint x="320" y="560" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="319.5" y="550"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="350" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="350" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;" parent="1" source="28" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="420" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="28" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="&lt;font color=&quot;#404e0d&quot;&gt;预计到达时间：2024-10-02 13:05&lt;br&gt;到达下一站方式：从一号线到杨箕站 换乘五号线到达中山八站 从A口出站后沿中山八路向泮塘路步行即可&lt;br&gt;到达下一站时长：&lt;/font&gt;&lt;span style=&quot;color: rgb(64, 78, 13);&quot;&gt;全程约34分钟&lt;/span&gt;&lt;font color=&quot;#404e0d&quot;&gt;&lt;br&gt;当前站游玩时长：0h&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#bac8d3;strokeColor=#2c90dd;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="80" width="720" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;endArrow=none;" parent="1" source="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="420" y="200" as="targetPoint"/>
+                        <mxPoint x="337.7777777777778" y="120" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="28" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="470" y="290" as="sourcePoint"/>
+                        <mxPoint x="520" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="420" y="100"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#005700;fillColor=#008a00;" parent="1" source="2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="470" y="290" as="sourcePoint"/>
+                        <mxPoint x="440" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2D7600;fillColor=#60a917;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="219.5" as="sourcePoint"/>
+                        <mxPoint x="440" y="219.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#005700;fillColor=#008a00;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="344.5" as="sourcePoint"/>
+                        <mxPoint x="440" y="344.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="420" y="345"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#005700;fillColor=#008a00;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="464.5" as="sourcePoint"/>
+                        <mxPoint x="440" y="464.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="420" y="465"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#005700;fillColor=#008a00;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="585" as="sourcePoint"/>
+                        <mxPoint x="440" y="585" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="420" y="585.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="&lt;font color=&quot;#404e0d&quot;&gt;预计到达时间：2024-10-02 14:00&lt;br&gt;到达下一站方式：骑车或步行&amp;nbsp;&lt;br&gt;到达下一站时长：约&lt;/font&gt;&lt;span style=&quot;color: rgb(64, 78, 13);&quot;&gt;20分钟&lt;/span&gt;&lt;font color=&quot;#404e0d&quot;&gt;&lt;br&gt;当前站游玩时长：1.5h&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#bac8d3;strokeColor=#2c90dd;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="200" width="720" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;font style=&quot;&quot; color=&quot;#404e0d&quot;&gt;预计到达时间：2024-10-02 15:50&lt;br&gt;到达下一站方式：&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#404e0d&quot;&gt;步行 420米&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(64, 78, 13); background-color: initial;&quot;&gt;黄沙站 上车地铁1号线(广州东站方向)公园前站(D口出)下车&lt;/span&gt;&lt;span style=&quot;color: rgb(64, 78, 13); background-color: initial;&quot;&gt;步行 630米&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#404e0d&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;&quot; color=&quot;#404e0d&quot;&gt;到达下一站时长：约&lt;/font&gt;&lt;span style=&quot;color: rgb(64, 78, 13);&quot;&gt;26分钟&lt;/span&gt;&lt;font style=&quot;&quot; color=&quot;#404e0d&quot;&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;当前站游玩时长：1.5h&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#bac8d3;strokeColor=#2c90dd;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="320" width="720" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;font style=&quot;&quot; color=&quot;#404e0d&quot;&gt;预计到达时间：2024-10-02 18:00&lt;br&gt;到达下一站方式：&lt;/font&gt;&lt;font color=&quot;#404e0d&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;步行 740米&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; color: rgb(64, 78, 13);&quot;&gt;公园前站 上车地铁1号线(广州东站方向)体育西路站 下车&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(64, 78, 13);&quot;&gt;站内换乘 步行 60米&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(64, 78, 13);&quot;&gt;体育西路站 上车地铁3号线(海傍方向)广州塔站 下车&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(64, 78, 13);&quot;&gt;步行 10米&lt;/span&gt;&lt;font color=&quot;#404e0d&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#404e0d&quot;&gt;到达下一站时长：约31&lt;/font&gt;&lt;span style=&quot;color: rgb(64, 78, 13);&quot;&gt;分钟&lt;/span&gt;&lt;font style=&quot;&quot; color=&quot;#404e0d&quot;&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;当前站游玩时长：1.5h&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#bac8d3;strokeColor=#2c90dd;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="440" width="720" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;font style=&quot;&quot; color=&quot;#404e0d&quot;&gt;预计到达时间：2024-10-02 20:00&lt;br&gt;到达下一站方式：附近酒店或民宿(很多)&lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#404e0d&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#404e0d&quot;&gt;到达下一站时长：20分钟&lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#404e0d&quot;&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;当前站游玩时长：1h&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#bac8d3;strokeColor=#2c90dd;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="560" width="720" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
