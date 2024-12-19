@@ -19,6 +19,7 @@ tags: log
 - [谨记](#谨记)
 - [一点幽默](#一点幽默)
 - [触动心弦的句子](#触动心弦的句子)
+- [通达信公式](#通达信公式)
 - [stock](#stock)
 
 # 处理事情的另一个视角
@@ -123,6 +124,58 @@ tags: log
 
 # 触动心弦的句子
 - 走在城市里很烦人，读一下午的书很烦人，安排和完成一顿家庭晚餐很烦人，甚至待在这里就很烦人。
+
+# 通达信公式
+- 公式名称
+  - 活跃股池
+- 公式描述
+  - 当天收盘执行，第二天开盘看盘选股使用
+- 公式内容
+{换手率}
+HSL := (100*VOL/CAPITAL) >= 3 AND (100*VOL/CAPITAL) <= 20;  
+
+{量比}
+LB := DYNAINFO(17) >= 1.5 AND  DYNAINFO(17) <= 10; 
+
+{A股且非创业非科创非ST}
+MARKET := NOT(NAMELIKE('ST') OR NAMELIKE('*ST') OR NAMELIKE('S')
+OR INBLOCK('创业板') OR INBLOCK('科创板'));
+
+{趋势条件}
+P1 := MA(CLOSE, 20);    {20日均线，用于判断最近1个月趋势}
+P2 := MA(CLOSE, 60);    {60日均线，用于判断最近3个月趋势}
+
+三个月趋势向上 := P2 > REF(P2, 1);  {60日均线逐日上升}
+一个月趋势向上 := P1 > REF(P1, 1);  {20日均线逐日上升}
+
+最近三个月涨幅 := (CLOSE / REF(CLOSE, 60) - 1) * 100; {最近3个月涨幅}
+最近一个月涨幅 := (CLOSE / REF(CLOSE, 20) - 1) * 100; {最近1个月涨幅}
+
+{最终筛选条件}
+HSL AND LB AND MARKET AND 
+三个月趋势向上 AND 一个月趋势向上 AND 
+最近三个月涨幅 > 10 AND 最近一个月涨幅 > 5;
+
+
+- 公式名称
+  - 尾盘抢筹
+- 公式描述
+  - 当天早盘结束执行，午盘开盘选股使用
+- 公式内容
+VAR1:=(OPEN-REF(C,1))/REF(C,1)*100< 3;
+VAR2:=(C-REF(C,1))/REF(C,1)*100< 5;
+VAR3:=(C-REF(C,1))/REF(C,1)*100>2;
+VAR4:=(REF(C,1)-REF(C,2))/REF(C,2)*100< 5;
+VAR5:=(C-REF(C,29))/REF(C,29)*100< 60;
+VAR6:=(H-C)/REF(C,1)*100< 4.3;
+VAR9:=VOL/CAPITAL*100>5 AND VOL/CAPITAL*100< 10 AND V/REF(MA(V,5),1)>2;
+VOLUME:=VOL;
+MAVOL1:=MA(VOLUME,120);
+VAR7:=VOL>MAVOL1*1.2;
+去ST:=NOT(NAMELIKE('ST') OR NAMELIKE('*ST') OR NAMELIKE('S'));
+VAR78:=(REF(HHV(C,12),1)-REF(LLV(C,12),1))/REF(LLV(C,12),1)*100< 18;
+尾盘抢筹:VAR1 AND VAR2 AND VAR3 AND VAR4 AND VAR5 AND VAR6 AND VAR7 AND VAR78 AND 去ST AND VAR9;
+
 
 
 # stock
