@@ -29,6 +29,8 @@ tags: log
     - [偶像的黄昏](#偶像的黄昏)
     - [道德谱系学](#道德谱系学)
 - [n8n](#n8n)
+- [comfyui](#comfyui)
+- [moneyPrinterTurbo](#moneyprinterturbo)
 >>>>>>> 0e3f7c9b9e8cb3753309b43d9a52d3fdaf1472b3
 
 # 处理事情的另一个视角
@@ -412,3 +414,27 @@ VAR78:=(REF(HHV(C,12),1)-REF(LLV(C,12),1))/REF(LLV(C,12),1)*100< 18;
   - docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
 - deepseek key
   - sk-c65300733c7b4b38a9f8c12701f55e85
+
+# comfyui 
+- 问题汇总
+  - 当使用网上的工作流后  提示安装缺失节点 在安装节点时失败 失败后重启comfyui 却提示无法启动cu 就重装了cu 在重装过程中 安装py包时经常失败 重试了几次 才再次 重新安装好。。。。。。
+  - 安装好cu客户端 还是经常启动不了 便使用了 http://localhost:8000/ 来启动。。。。
+  - 正在安装 ComfyUI-Crystools 安装 直接卡死
+    - G:\comfy\custom_nodes>git clone https://github.com/crystian/ComfyUI-Crystools
+    - G:\comfy\custom_nodes>git clone https://github.com/11cafe/comfyui-workspace-manager
+    - G:\comfy\custom_nodes>git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts
+    - G:\comfy\custom_nodes>git clone https://github.com/jakechai/ComfyUI-JakeUpgrade
+    - https://github.com/yolain/ComfyUI-Easy-Use
+    - 重启客户端又可以重启了。。。。
+  - KSampler mat1 and mat2 shapes cannot be multiplied (77x768 and 4096x1536I  文生视频 
+
+# moneyPrinterTurbo
+- pexels key
+  - 5A5mNbq1y29aiyFUu5oUJV4AlsRMacyxyjn3FCwogKUs2jeKMxhfhgCz
+- 运行
+  - 前台的web界面开启 接n8n的话 可以不开启
+    - webui.bat
+  - moneyprintturbo 视频生成程序开启
+    - cd G:\mpt\MoneyPrinterTurbo && python main.py
+
+
